@@ -9,3 +9,6 @@ function iterate(callback){
   cheese.forEach(callback)
   return cheese
 }
+function doToArray(array, callback){
+  array.forEach(callback)
+}
